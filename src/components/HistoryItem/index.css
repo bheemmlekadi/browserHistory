@@ -1,0 +1,26 @@
+.history-item-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  /* align-items: center;
+   */
+}
+
+.item-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.time-accessed {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+
+.delete-icon {
+  width: 20px;
+  height: 50px;
+}
